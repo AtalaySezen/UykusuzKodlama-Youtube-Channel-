@@ -1,0 +1,17 @@
+body{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color: black;
+    color: white;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-solid{
+    font-size: 30px;
+}
