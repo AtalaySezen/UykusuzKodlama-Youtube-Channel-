@@ -6,7 +6,7 @@ let secondsElement = document.getElementById("seconds");
 let timerContainer = document.getElementById("timerContainer");
 let newYearContainer = document.getElementById("newYearContainer");
 
-newYearContainer;
+
 let interval = setInterval(function () {
   let now = new Date().getTime();
   let distance = newYear - now;
@@ -26,4 +26,5 @@ let interval = setInterval(function () {
     timerContainer.classList.add("none");
     newYearContainer.classList.remove("none");
   }
+
 }, 1000);
