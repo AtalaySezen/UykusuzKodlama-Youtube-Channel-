@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: aqua;
+    min-width: 250px;
+    height: 200px;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px 10px;
+}
